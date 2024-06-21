@@ -1,0 +1,402 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Libre+Baskerville&family=Martel+Sans:wght@600;900&family=Montserrat:wght@400;500&family=Poppins:wght@500;600;700;900&display=swap');
+     
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: black;
+   }
+
+.main {
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/5b22968d-b94f-44ec-bea3-45dcf457f29e/IN-en-20231204-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+
+}
+
+.main .box {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+}
+
+#svg {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    fill: red;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    /* used to make items center */
+    justify-content: space-between;
+    height: 62px;
+    padding:20px;
+  
+}
+
+.buttons {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height:87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding: 0px 30px;
+    gap:20px;
+}
+.hero> :first-child{
+    font-size:48px ;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.hero :nth-child(2){
+    font-size:24px ;
+    font-weight:200;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-size:20px ;
+    font-weight: 200;
+    text-align: center;    
+}
+
+.button
+{
+    position: relative;
+    opacity:0.8;
+}
+.btn
+{
+    padding:3px 20px;
+    font-weight:600;
+    background-color: transparent;
+    color:white;
+    border:2px solid grey;  
+    font-size: 14px;
+    width:130px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.btn-2
+{
+    padding:6px 20px;
+    background-color: red;
+    color:white;
+    margin:20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-red-sm
+{
+    padding:8px 40px;
+    font-size: 30px;
+background-color: red;
+color:white;
+border-radius: 8px; 
+cursor: pointer;
+}
+#input
+{
+    padding:6px 120px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: transparent;
+    border:2px solid grey;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.536);
+}
+.get{
+    display: flex;
+    gap:10px;
+    
+}
+.secondsection
+{
+    height:60vh;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+}
+.secondsection .left h1
+{
+   font-size: 3rem;
+   margin-bottom: 20px;
+}
+.secondsection .left p
+{
+   font-size: 1.3rem;
+   margin-bottom: 20px;
+}
+
+.seperation
+{
+    height: 7px;
+    background-color: grey;
+}
+
+.thirdsection
+{
+    height: 60vh;
+    /* margin: 50px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;   
+}
+.thirdsection .right h1
+{
+   font-size: 3rem;
+   margin-left:57px 0px;
+
+}
+.thirdsection .right p
+{
+   font-size: 1.3rem;
+   margin-left:57px 0px;
+}
+.forthsection
+{
+    height: 80vh;
+    /* margin: 50px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;  
+    position: relative; 
+}
+.forthsection .left h1
+{
+   font-size: 3rem;
+   margin-left: 58px;
+
+}
+.forthsection .left p
+{
+   font-size: 1.3rem;
+   margin-left: 70px;
+}
+.forthsection .right img
+{
+   margin-left: 20px;
+}
+.fifthsection
+{
+    height: 80vh;
+    /* margin: 50px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;   
+}
+.fifthsection .right h1
+{
+   font-size: 3rem;
+    margin-right: 200px ;
+}
+.fifthsection .right p
+{
+   font-size: 1.3rem;
+   margin-right: 200px ;
+}
+.thirdsection
+{
+    height: 90vh;
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color:white;   
+}
+.thirdsection .right h1
+{
+   font-size: 3rem;
+
+}
+.thirdsection .right p
+{
+   font-size: 1.3rem;
+}
+
+.footer
+{
+    height: 142vh;
+    font-size: 1.5rem; 
+    color:white;
+    font-weight: 3000;
+}
+.footer h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px ;
+}
+.span
+{
+   padding:0px 0px;
+    /* border:2px solid white; */
+    background-color: rgb(63,63,63);
+    width:80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+.span {
+  padding:30px;
+}
+.span:hover
+ {
+ background-color:rgb(112, 111, 111);
+}
+
+.ready
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+    font-size: 19px;
+}
+.get2{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 30px;
+}
+.input
+{
+    padding:18px 30px;
+    padding-right:155px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: transparent;
+    border:2px solid grey;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.536);
+    text-align: left;
+}
+.btn-red-sm1
+{
+    padding:8px 40px;
+    font-size: 30px;
+background-color: red;
+color:white;
+border-radius: 8px; 
+cursor: pointer;
+margin: 20px ;
+}
+.footer-heading
+{
+    height: 50vh;
+    color:white;
+}
+.right{
+    position: relative;
+}
+.ul
+{
+    margin-top: 60px;
+    display: flex;
+     padding: 30px 120px;
+    justify-content: space-evenly;
+    gap:30px;
+    font-weight:400 ;
+    font-size:14px
+}
+#screen-1{
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    z-index: -1;
+}
+#screen-2
+{
+    position: absolute;
+    top: 4%;
+    left: 17%;
+    z-index: -1;
+    padding:30px 30px;
+    object-fit: cover;
+    object-position: center;
+}
+#screen-2 video{
+    width:380px;
+}
+.ul span
+{
+    position: relative;
+    top:0px;
+    right:0px;
+    display: flex;
+    flex-direction: column;
+}
+.ul li
+{
+    list-style-type: none;
+}
+.ul li a
+{
+   
+    color:rgb(150,179,179);
+}
+.first-ul li
+{
+    margin: 30px 0px;
+}
+.second-ul li
+{
+    margin: 30px 0px;
+}
+.third-ul li
+{
+    margin: 30px 0px;
+}
+.forth-ul li
+{
+    margin: 30px 0px;
+}
+.select
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    width: 60px;
+    padding:5px 13px;
+    border:2px solid red;
+    background-color: rgb(39, 36, 36);
+   
+}
+.select label
+{
+    font-size: 20px;
+} 
+.netflix
+{
+    margin-top:20px ;
+}
